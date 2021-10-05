@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>Web Programlama - JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app" class="appDiv">
+        <label for="txtGirdi">Değer giriniz</label>
+        <input type="text" id="txtGirdi" name="girdi" v-model="girilenDeger" />
+
+        <!-- <button id="btnEkle" onclick="listeyeEkle()">Ekle</button> -->
+        <button id="btnEkle" v-on:click="listeyeEkle">Ekle</button>
+        <ul>
+            <li v-for="not in notlar">{{ not }}</li>
+        </ul>
+        <label>{{ girilenDeger }}</label>
+    </div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"> </script>
+</body>
+
+</html>
