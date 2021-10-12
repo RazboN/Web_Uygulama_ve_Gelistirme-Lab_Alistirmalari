@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vue Basics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/vue@next" defer></script>
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>2021 - 22 Dersleri</h1>
+  </header>
+  <section id="kullanici-dersler">
+    <h2>Dersler</h2>
+    <!-- <p> {{ dersBir }} </p>  
+        Vue uygulamasından metin görüntülemek için kullanılan yöntem
+      -->
+    <p> {{ dersGetir() }} </p>
+    <input type="text" v-model="inputDeger">
+    <button v-on:click="inputReset">Reset</button>
+    <!-- <p>{{inputDeger}}</p> -->
+    <p>{{tamIsim}}</p>
+    <p>Çalışmalarım <a v-bind:href='amaclar.calisma' target="_blank">Tercih Sıralamaları</a></p>
+  </section>
+</body>
+
+</html>
