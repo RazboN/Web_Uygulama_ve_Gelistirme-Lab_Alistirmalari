@@ -7,12 +7,20 @@ Vue.createApp({
     },
     methods: {
         listeyeEkle() {
+            if (this.girilenDeger == '') {
+                return;
+            }
+
             this.notlar.push(this.girilenDeger);
             this.girilenDeger = '';
         },
-        // sil(){
-
-        // }
+        sil(ind) {
+            //alert("Eleman silme");
+            //this.notlar.pop(); dizinin sonundaki elemanı kaldırır
+            this.notlar.splice(ind, 1);
+            //this.notlar[index] = ""
+            ;
+        }
     },
 }).mount('#app');
 

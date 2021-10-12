@@ -9,12 +9,14 @@
 <body>
     <div id="app" class="appDiv">
         <label for="txtGirdi">Değer giriniz</label>
-        <input type="text" id="txtGirdi" name="girdi" v-model="girilenDeger" />
+        <input type="text" id="txtGirdi" name="girdi" v-model.trim="girilenDeger" />
 
         <!-- <button id="btnEkle" onclick="listeyeEkle()">Ekle</button> -->
         <button id="btnEkle" v-on:click="listeyeEkle">Ekle</button>
-        <ul>
-            <li v-for="not in notlar">{{ not }}</li>
+        <p v-if="notlar.length == 0">Görüntülenecek Eleman Yok...</p>
+        <ul v-else>
+            <li v-for="(not, ind) in notlar" v-on:click="sil(ind)" v-bind:id="ind">{{ not }}
+            </li>
         </ul>
         <label>{{ girilenDeger }}</label>
     </div>
