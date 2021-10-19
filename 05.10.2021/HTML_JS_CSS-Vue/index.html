@@ -16,6 +16,8 @@
         <p v-if="notlar.length == 0">Görüntülenecek Eleman Yok...</p>
         <ul v-else>
             <li v-for="(not, ind) in notlar" v-on:click="sil(ind)" v-bind:id="ind">{{ not }}
+                <!-- v-on: -> @click -->
+                <input type="text" @click.stop> 
             </li>
         </ul>
         <label>{{ girilenDeger }}</label>

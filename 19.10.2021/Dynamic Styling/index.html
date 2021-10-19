@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vue Basics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/vue@next" defer></script>
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Vue Dinamik Stil</h1>
+  </header>
+  <section id="dyn-stil">
+    <h2>
+      Sayaç: {{ sayac }}
+    </h2>
+    <!-- v-bind: -> :attribute adı -->
+    <div class="demo" @click="KutuSec('a')" :class="kutuAcss"> Kutu A
+      <button @click.stop v-if="kutuAsecildiMi"
+        @click="SayacArttir(1)">Arttır</button>
+    </div>
+    <div class="demo" @click="KutuSec('b')" :class="{ active: this.kutuBsecildiMi }">Kutu B
+      <button @click.stop :hidden="!kutuBsecildiMi"
+        @dblclick="SayacArttir(2)">Arttır</button>
+    </div>
+    <div class="demo" @click="KutuSec('c')" :class="{ active: this.kutuCsecildiMi }">Kutu C
+      <button @click.stop v-if="kutuCsecildiMi">Arttır</button>
+    </div>
+  </section>
+</body>
+
+</html>
