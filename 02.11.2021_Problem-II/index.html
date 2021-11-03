@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vue Basics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/vue@next" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<!-- assignment_1 için çalışacak farklı bir vue uygulaması, 
+    assignment_2 için farklı vue uygulaması geliştiriniz-->
+
+<body>
+  <header>
+    <h1>Reaktivite</h1>
+  </header>
+  <section id="assignment_1">
+    <button v-on:click="SonucArttir(5)">Ekle 5</button>
+    <button @click="SonucArttir(1)">Ekle 1</button>
+
+    <!-- Bu çalışmayı computed property ve watcher kullanarak yapınız -->
+    <!-- 1) Butonları bağlayın ve sayı üretmelerini sağlayınız -->
+    <!-- sayı 37 ye ulaşmadıysa Sonuç paragrafına "daha yolun var yazsın" -->
+    <!-- sayı 37 ye ulatığında paragrafta sayı görüntülensin -->
+    <!-- sayı 37 yi aştığında paragrafta "çok gittin" görüntülensin -->
+    <p>Sonuç: {{ sonuc }} - sayaç: {{ sayac }}</p>
+    <!-- 2) SONUC değerinin değişimi için bir watcher yazınız ve bu watcher 5 saniye sonra SONUC değerini 0 yapsın -->
+  </section>
+
+  <section id="assignment_2">
+    <!-- 1) Bu alanda adınız görüntülenecek -->
+    <!-- <h2>ADINIZ - SOYADINIZ</h2> -->
+    <h2>{{ Isim }} </h2>
+    <!-- 2) Bu alanda yaşınız görüntülenecek -->
+    <!-- <p>YAŞINIZ</p> -->
+    <p>Yaş: {{ ben.yas }}</p>
+    <!-- 3) Bu alanda 10 yıl sonraki yaşınız görüntülenecek -->
+    <!-- <p>10 Yıl Sonraki Yaşınız</p> -->
+    <p>On yıl sonraki yaş: {{ Yas10 }} </p>
+    <!-- 4) Rastgele sıfır ile 1 arasında bir sayı görüntülenecek -->
+    <!-- <p>Favori Sayım: SAYI GÖRÜNTÜLENECEK</p> -->
+    <p>Favori Sayım: {{ FavoriSayi }}</p>
+    <div>
+      <!-- 5) Bu alanda resim görüntülenecek -->
+      <img :src="linkler.link1" />
+      <img v-bind:src="linkler.link2" />
+    </div>
+    <!-- 6) Input alanı içerisinde adınız görüntülenecek -->
+    <input type="text" v-bind:value="ben.ad" />
+    <!-- two way binding -->
+    <input type="text" v-model="ben.ad" />
+    <p>Yeni İsim: {{ ben.ad }}</p>
+  </section>
+</body>
+
+</html>
