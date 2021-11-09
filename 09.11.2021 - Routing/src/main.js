@@ -9,7 +9,7 @@ import TeamMembers from './components/teams/TeamMembers.vue';
 const webUygRouter = createRouter({
     history: createWebHistory(),
     routes: [
-        { path: '/', redirect: '/takimlar' }, //component: TeamsList 
+        { path: '/', redirect: '/takimlar' }, //component: TeamsList de yazılabilir ama yönlendirme olmaz
         { path: '/kullanicilar', component: UsersList },
         { path: '/takimlar', component: TeamsList },
         { path: '/takimlar/:takimId', component: TeamMembers, props: true }
