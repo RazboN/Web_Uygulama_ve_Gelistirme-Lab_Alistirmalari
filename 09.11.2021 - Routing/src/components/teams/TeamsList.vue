@@ -1,8 +1,22 @@
 <template>
+  <ul>
+    <teams-item
+      v-for="takim in takimlar"
+      :key="takim.id"
+      :takimAdi="takim.name"
+      :uyeSayisi="takim.members.length"
+      :tId="takim.id"/>
+  </ul>
 </template>
 
 <script>
+import TeamsItem from './TeamsItem.vue';
+
 export default {
+  inject: ['takimlar'],
+  components: {
+    TeamsItem,
+  },
 };
 </script>
 

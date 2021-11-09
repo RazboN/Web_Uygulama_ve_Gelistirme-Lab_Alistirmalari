@@ -3,10 +3,10 @@
     <nav>
       <ul>
         <li>
-          <button>Takımlar</button>
+          <router-link to="/takimlar">Takımlar</router-link>
         </li>
         <li>
-          <button>Üyeler</button>
+          <router-link to="/kullanicilar">Üyeler</router-link>
         </li>
       </ul>
     </nav>

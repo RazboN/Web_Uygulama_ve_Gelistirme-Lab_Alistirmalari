@@ -1,8 +1,19 @@
 <template>
+  <li>
+    <h3>{{ takimAdi }}</h3>
+    <div class="team-members">{{ uyeSayisi }} Üye</div>
+    <router-link :to="takimUyeleriLinki">Üyeler</router-link>
+  </li>
 </template>
 
 <script>
 export default {
+  props:['takimAdi', 'uyeSayisi', 'tId'],
+  computed: {
+    takimUyeleriLinki(){
+      return '/takimlar/' + this.tId;
+    }
+  }
 };
 </script>
 

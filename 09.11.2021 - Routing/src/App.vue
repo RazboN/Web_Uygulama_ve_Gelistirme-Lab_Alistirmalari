@@ -1,20 +1,24 @@
 <template>
-  <the-navigation />
-  <users-list/>
+  <div>
+    <the-navigation></the-navigation>
+    <main>
+      <router-view></router-view>
+    </main>
+  </div>
 </template>
+
 
 <script>
 import TheNavigation from './components/nav/TheNavigation.vue';
-import UsersList from './components/users/UsersList.vue';
 
 export default {
   components: {
     TheNavigation,
-    UsersList
   },
   provide() {
     return {
       kullanicilar: this.users,
+      takimlar: this.teams,
     };
   },
   data() {

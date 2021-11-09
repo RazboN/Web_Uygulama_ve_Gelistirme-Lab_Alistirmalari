@@ -1,4 +1,17 @@
 <template>
+  <ul>
+    <li>
+      <h3>{{ takimAdi }}</h3>
+      <ul>
+        <user-item
+          v-for="uye in uyeler"
+          :key="uye.id"
+          :adSoyad="uye.fullName"
+          :rol="uye.role"
+        />
+      </ul>
+    </li>
+  </ul>
 </template>
 
 <script>
@@ -6,16 +19,31 @@ import UserItem from '../users/UserItem.vue';
 
 export default {
   components: {
-    UserItem
+    UserItem,
   },
+  inject: ['kullanicilar', 'takimlar'],
+  props: ['takimId'],
   data() {
     return {
-      teamName: 'Test',
-      members: [
-        { id: 'u1', fullName: 'Max Schwarz', role: 'Engineer' },
-        { id: 'u2', fullName: 'Max Schwarz', role: 'Engineer' },
-      ],
+      takimAdi: '',
+      uyeler: [],
     };
+  },
+  created() {
+    this.uyeleriYukle(this.takimId);
+  },
+  methods: {
+    uyeleriYukle(p_id) {
+      const secilenTakim = this.takimlar.find((takim) => takim.id === p_id);
+      const takimUyeleriId = secilenTakim.members;
+
+      for (const uyeId of takimUyeleriId) {
+        const secilenUye = this.kullanicilar.find(
+          (kullanici) => kullanici.id === uyeId
+        );
+        this.uyeler.push(secilenUye);
+      }
+    },
   },
 };
 </script>
@@ -35,7 +63,8 @@ h2 {
 
 ul {
   list-style: none;
-  margin: 0;
+  margin: 2rem auto;
+  max-width: 40rem;
   padding: 0;
 }
 </style>
