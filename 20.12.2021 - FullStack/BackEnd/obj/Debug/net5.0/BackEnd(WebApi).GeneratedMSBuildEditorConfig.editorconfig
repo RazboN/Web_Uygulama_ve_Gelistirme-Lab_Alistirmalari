@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = BackEnd_WebApi_
+build_property.ProjectDir = D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\

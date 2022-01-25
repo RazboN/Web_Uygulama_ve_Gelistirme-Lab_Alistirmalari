@@ -1,0 +1,59 @@
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\appsettings.Development.json
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\appsettings.json
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\BackEnd(WebApi).exe
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\BackEnd(WebApi).deps.json
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\BackEnd(WebApi).runtimeconfig.json
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\BackEnd(WebApi).runtimeconfig.dev.json
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\BackEnd(WebApi).dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\ref\BackEnd(WebApi).dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\BackEnd(WebApi).pdb
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).AssemblyInfoInputs.cache
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).AssemblyInfo.cs
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).csproj.CoreCompileInputs.cache
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).MvcApplicationPartsAssemblyInfo.cs
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).MvcApplicationPartsAssemblyInfo.cache
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\staticwebassets\BackEnd(WebApi).StaticWebAssets.Manifest.cache
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\staticwebassets\BackEnd(WebApi).StaticWebAssets.xml
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\scopedcss\bundle\BackEnd(WebApi).styles.css
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).RazorTargetAssemblyInfo.cache
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\ref\BackEnd(WebApi).dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).pdb
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).genruntimeconfig.cache
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\DnsClient.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\SharpCompress.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).csproj.AssemblyReference.cache
+D:\Development\Vue-CoreApi-MongoDb\BackEnd(WebApi)\obj\Debug\net5.0\BackEnd(WebApi).csproj.CopyComplete
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).csproj.AssemblyReference.cache
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).GeneratedMSBuildEditorConfig.editorconfig
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).AssemblyInfoInputs.cache
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).AssemblyInfo.cs
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).csproj.CoreCompileInputs.cache
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).MvcApplicationPartsAssemblyInfo.cs
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).MvcApplicationPartsAssemblyInfo.cache
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).dll
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\ref\BackEnd(WebApi).dll
+D:\Can Razbonyalı\CR_Dersler\Maltepe Üniversitesi\Web Uygulama ve Geliştirme\2021 - 2022\Lab Çalışmaları\20.12.2021 - FullStack\BackEnd\obj\Debug\net5.0\BackEnd(WebApi).pdb
