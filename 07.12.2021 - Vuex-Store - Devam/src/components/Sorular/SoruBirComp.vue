@@ -1,31 +1,33 @@
 <template>
-  <h3>
-    Aşağıda bulunan formdaki "Kaydet" butonuna basıldığında <br />
-    form kontrolü yapılmalıdır ve boş alan varsa sayfada uyarı görüntülenmeli
-    <br />
-    eğer alanlar doluysa sayfadaki değerler konsolda görüntülenmeli.
-  </h3>
-  <form @submit.prevent="BeceriEkle">
-    <div class="form-control-txt">
-      <label for="txtBeceri">Bilgisayar Beceriniz</label>
-      <input
-        id="txtBeceri"
-        name="txtBeceri"
-        type="text"
-        v-model.trim="teknoloji"
-      />
+  <div>
+    <h3>
+      Aşağıda bulunan formdaki "Kaydet" butonuna basıldığında <br />
+      form kontrolü yapılmalıdır ve boş alan varsa sayfada uyarı görüntülenmeli
       <br />
-      <label for="txtSeviye">Seviye</label>
-      <input
-        id="txtSeviye"
-        name="txtSeviye"
-        type="number"
-        v-model.trim="seviye"
-      />
-      <p v-if="ValidasyonHata.hataVarMi">{{ ValidasyonHata.mesaj }}</p>
-    </div>
-    <button>Kaydet</button>
-  </form>
+      eğer alanlar doluysa sayfadaki değerler konsolda görüntülenmeli.
+    </h3>
+    <form @submit.prevent="BeceriEkle">
+      <div class="form-control-txt">
+        <label for="txtBeceri">Bilgisayar Beceriniz</label>
+        <input
+          id="txtBeceri"
+          name="txtBeceri"
+          type="text"
+          v-model.trim="teknoloji"
+        />
+        <br />
+        <label for="txtSeviye">Seviye</label>
+        <input
+          id="txtSeviye"
+          name="txtSeviye"
+          type="number"
+          v-model.trim="seviye"
+        />
+        <p v-if="ValidasyonHata.hataVarMi">{{ ValidasyonHata.mesaj }}</p>
+      </div>
+      <button>Kaydet</button>
+    </form>
+  </div>
 </template>
 
 <script>
@@ -52,12 +54,10 @@ export default {
           seviye: this.seviye,
         };
 
-          this.$emit("beceri-ekle", yeniTeknoloji);
-          this.teknoloji = "";
-          this.seviye = 0;
-          this.ValidasyonHata.hataVarMi = false;
-
-        
+        this.$emit("beceri-ekle", yeniTeknoloji);
+        this.teknoloji = "";
+        this.seviye = 0;
+        this.ValidasyonHata.hataVarMi = false;
       }
     },
   },
